@@ -70,7 +70,7 @@ const News = (props) => {
     return (
         <div className="container my-3">
             <h1 className="text-center" style={{ margin: "90px 0px 35px 0px" }}>
-                MyNews - Top {capitalizeFirstLetter(props.category)} Headlines
+                NewsFlux - Top {capitalizeFirstLetter(props.category)} Headlines
             </h1>
             {load && <Loading />} {/* Show loading indicator */}
             <InfiniteScroll
